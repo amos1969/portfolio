@@ -4,42 +4,59 @@
     <meta charset="UTF-8">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <title>Dave Ames' Portfolio Page</title>
+    <style>
+        .thin-black-border {
+            border-color: black;
+            border-width: 1px;
+            border-style: solid;
+        }
+        .my-spacer {
+            height: 5px;
+            background-color: lightgray;
+            margin: 20px;
+        }
+    </style>
 </head>
 <body>
 
 <!-- Black with white text -->
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="#" target="_blank">
         <img src="assets/DA.png" alt="Logo" style="width:40px; margin-right:20px;">
         Dave Ames
     </a>
     <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="#home" target="_blank">Home</a>
+        </li>
         <li class="nav-item active">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about" target="_blank">About</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
+            <a class="nav-link" href="#portfolio" target="_blank">Portfolio</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact" target="_blank">Contact</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Social</a>
+            <a class="nav-link" href="#social" target="_blank">Social</a>
         </li>
     </ul>
 </nav>
 <div class="container-fluid">
     <div class="row">
     <div class="col"></div>
-    <div class="col-10">
+    <div class="col-10" style="background-color: white;">
      <div class="jumbotron jumbotron-fluid text-center">
         <div class="row">
             <div class="col-8 text-center">
             <h1 >Dave Ames</h1>
+                <div class="my-spacer"></div>
                 <p>Maths and Computer Science Teacher, PGCE Tutor, Workshop Facilitator</p>
                 <p>Python Programming, SQL, Django, Bootstrap</p>
             <h2>Programmer/Web Designer/Teacher</h2>
@@ -48,11 +65,101 @@
         </div>
     </div>
     </div>
+        <div class="col"></div>
+    </div>
+    <div class="row">
+
+        <div class="col"></div>
+    <div class="my-spacer col-6"></div>
+
+        <div class="col"></div>
+    </div>
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-10"  style="background-color: white;">
+            <h2 class="text-center">Portfolio</h2>
+            <div class="row">
+                <div class="col-5"><img class="thin-black-border rounded img-fluid" src="assets/casmanchester.png"></div>
+                <div class="col"></div>
+                <div class="col-5"><img class="thin-black-border rounded img-fluid"  src="assets/tribute.png"></div>
+            </div>
+            <div class="row" style="height: 20px"></div>
+            <div class="row">
+                <div class="col-5"><img class="thin-black-border rounded img-fluid"  src="assets/poster-image.png"></div>
+                <div class="col"></div>
+                <div class="col-5"><img class="thin-black-border rounded img-fluid"  src="assets/proj-malawi.png"></div>
+            </div>
+        </div>
+        <div class="col"></div>
+    </div>
+    <div class="row">
+
+        <div class="col"></div>
+        <div class="my-spacer col-6"></div>
+
+        <div class="col"></div>
+    </div>
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-10" style="background-color: white;">
+            <h2 class="text-center"><a name="contact">Contact</a></h2>
+            <p class="text-center"><i class="fa fa-envelope"> </i> Email me: <strong>david.john.ames@gmail.com</strong></p>
+            <p class="text-center"><i class="fa fa-phone"> </i> Call me: <strong>0111 1111 111</strong></p>
+        </div>
+        <div class="col"></div>
+    </div>
+    <div class="row">
+
+        <div class="col"></div>
+        <div class="my-spacer col-6"></div>
+
+        <div class="col"></div>
+    </div>
+    <div class="row">
+
+        <div class="col"></div>
+        <div class="col-10" style="background-color: white;">
+            <h2 class="text-center"><a name="social">Social Media</a></h2>
+            <div class="row">
+
+                <div class="col"></div>
+                <div class="my-spacer col-6"></div>
+
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-1">
+            <a href="https://twitter.com/davidames" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+                </div>
+                <div class="col-1">
+            <a href="https://www.facebook.com/dave.ames.1238" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+                </div>
+                <div class="col-1">
+            <a href="https://steemit.com/@amos1969" target="_blank"><i class="fa fa-steemit fa-2x"></i></a>
+                </div>
+                <div class="col-1">
+            <a href="https://github.com/amos1969" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                </div>
+                <div class="col-4"></div>
+            </div>
+            <div class="row">
+
+                <div class="col"></div>
+                <div class="my-spacer col-6"></div>
+
+                <div class="col"></div>
+            </div>
+        </div>
 
         <div class="col"></div>
     </div>
 
-
+</div>
+<div style="background-color: black; color: white; height: 100px; width: 100%;">
+    <br>
+    <h5 class="text-center">&copy; Dave Ames 2018</h5>
+    <br>
 </div>
 </body>
 </html>
